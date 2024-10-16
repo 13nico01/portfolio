@@ -11,9 +11,7 @@ const Navbar = () => {
   return (
     <nav className="flex flex-col md:flex-row justify-between items-center p-4 bg-gradient-to-r from-orange-500 to-orange-700">
       <div className="flex items-center justify-between w-full md:w-auto">
-        <a className="text-lg font-bold text-white">
-          Roomman
-        </a>
+        <span className="text-lg font-bold text-white">Roomman</span>
         <button 
           className="md:hidden text-white focus:outline-none" 
           onClick={toggleMenu}
@@ -23,19 +21,19 @@ const Navbar = () => {
       </div>
       <ul className={`flex-col md:flex-row md:flex md:items-center ${isOpen ? 'flex' : 'hidden'} md:block`}>
         <li className="mr-6">
-          <a className="text-white hover:text-gray-900 transition duration-500">
+          <button className="text-white hover:text-gray-900 transition duration-500">
             Home
-          </a>
+          </button>
         </li>
         <li className="mr-6">
-          <a className="text-white hover:text-gray-900 transition duration-500">
+          <button className="text-white hover:text-gray-900 transition duration-500">
             About
-          </a>
+          </button>
         </li>
         <li className="mr-6">
-          <a className="text-white hover:text-gray-900 transition duration-500">
+          <button className="text-white hover:text-gray-900 transition duration-500">
             Contact
-          </a>
+          </button>
         </li>
       </ul>
       <div className={`flex-col md:flex-row md:flex md:items-center ${isOpen ? 'flex' : 'hidden'} md:block`}>
