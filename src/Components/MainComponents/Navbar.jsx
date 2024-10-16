@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <nav className="flex flex-col md:flex-row justify-between items-center p-4 bg-gradient-to-r from-orange-500 to-orange-700">
       <div className="flex items-center justify-between w-full md:w-auto">
-        <a href="#" className="text-lg font-bold text-white">
+        <a className="text-lg font-bold text-white">
           Roomman
         </a>
         <button 
@@ -23,17 +23,17 @@ const Navbar = () => {
       </div>
       <ul className={`flex-col md:flex-row md:flex md:items-center ${isOpen ? 'flex' : 'hidden'} md:block`}>
         <li className="mr-6">
-          <a href="#" className="text-white hover:text-gray-900 transition duration-500">
+          <a className="text-white hover:text-gray-900 transition duration-500">
             Home
           </a>
         </li>
         <li className="mr-6">
-          <a href="#" className="text-white hover:text-gray-900 transition duration-500">
+          <a className="text-white hover:text-gray-900 transition duration-500">
             About
           </a>
         </li>
         <li className="mr-6">
-          <a href="#" className="text-white hover:text-gray-900 transition duration-500">
+          <a className="text-white hover:text-gray-900 transition duration-500">
             Contact
           </a>
         </li>
