@@ -1,4 +1,4 @@
-import profile from "../assets/images/placeholder.jpg";
+import profile from "../assets/images/Nico-portrait-black.jpg";
 
 const Hero = () => {
   return (
@@ -6,7 +6,7 @@ const Hero = () => {
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start">
-            <h1 className="pb-16 text-5xl font-thin tracking-tight lg:mt-16 lg:text-7xl">
+            <h1 className="sm:text-5xl pb-16 text-5xl font-thin tracking-tight lg:mt-16 lg:text-7xl">
               Nico Zimmermann
             </h1>
             <span className=" lowercase bg-gradient-to-r from-blue-700 via-slate-500 to-green-700 bg-clip-text text-4xl tracking-tight text-transparent">
@@ -29,7 +29,7 @@ const Hero = () => {
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">
           <div className="flex justify-center">
-            <img className="pt-12" src={profile} alt="ProfilePicture"></img>
+            <img className="rounded-3xl brightness-95 max-w-md" src={profile} alt="ProfilePicture"></img>
           </div>
         </div>
       </div>
