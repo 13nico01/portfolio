@@ -1,4 +1,5 @@
 import profile from "../assets/images/Nico-portrait-black.jpg";
+import { HERO_TEXT } from "../Constants";
 
 const Hero = () => {
   return (
@@ -12,19 +13,7 @@ const Hero = () => {
             <span className=" lowercase bg-gradient-to-r from-blue-700 via-slate-500 to-green-700 bg-clip-text text-4xl tracking-tight text-transparent">
               Web-Developer
             </span>
-            <p className="my-2 max-w-xl py-6 tracking-tighter leading-7">
-              I'm Nico, a 18 year old web developer from Austria with a strong
-              passion for building websites. I've been working in web
-              development for almost 5 years now.
-              <br /> My favorite tools are ReactJS for building the front-end
-              and Tailwind CSS for making everything look great and desing the
-              website individual.
-              <br /> I love web development because it allows me to create
-              almost anything I can imagine online. Every project is a new
-              adventure and a chance to learn something new.
-              <br /> I'm excited to share my projects with you and explore
-              what's possible together in the world of web development!
-            </p>
+            <p className="my-2 max-w-xl py-6 tracking-tight leading-8 font-extralight text-lg">{HERO_TEXT}</p>
           </div>
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">
