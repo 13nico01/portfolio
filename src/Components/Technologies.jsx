@@ -7,8 +7,8 @@ import { SiVite } from "react-icons/si";
 
 const Technologies = () => {
   return (
-    <div className="border-b b-neutral-800 pb-24">
-      <h2 className="my-20 text-center text-4xl">Technologies</h2>
+    <div className="border-b border-neutral-800 pb-24">
+      <h2 className="my-20 text-center text-4xl font-extralight bg-gradient-to-r from-neutral-200 to-slate-950 bg-clip-text text-transparent pb-2">Technologies</h2>
       <div className="flex flex-wrap justify-center items-center gap-12">
         <div className="rounded-2xl border-4 border-neutral-500 p-4">
           <RiReactjsFill className="text-7xl text-cyan-400" />
@@ -26,7 +26,7 @@ const Technologies = () => {
           <FaGit className="text-7xl" />
         </div>
         <div className="rounded-2xl border-4 border-neutral-500 p-4">
-          <SiVite className="text-7xl text-pink-400" />
+          <SiVite className="text-7xl text-purple-700" />
         </div>
       </div>
     </div>

@@ -1,4 +1,4 @@
-import profile from "../assets/images/Nico-portrait-black.jpg";
+import profile from "../assets/images/nico-transparent.png";
 import { HERO_TEXT } from "../Constants";
 
 const Hero = () => {
@@ -18,7 +18,7 @@ const Hero = () => {
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">
           <div className="flex justify-center">
-            <img className="rounded-3xl brightness-95 max-w-md" src={profile} alt="ProfilePicture"></img>
+            <img className="rounded-xl brightness-95 max-w-sm pt-20" src={profile} alt="ProfilePicture"></img>
           </div>
         </div>
       </div>
