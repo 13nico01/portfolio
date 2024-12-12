@@ -12,7 +12,7 @@ const Hero = () => {
             <span className=" lowercase bg-gradient-to-r from-blue-700 via-slate-500 to-green-700 bg-clip-text text-4xl tracking-tight text-transparent">
               Web-Developer
             </span>
-            <p className="my-2 max-w-xl py-6 font-extralight tracking-tighter leading-7">
+            <p className="my-2 max-w-xl py-6 tracking-tighter leading-7">
               I'm Nico, a 18 year old web developer from Austria with a strong
               passion for building websites. I've been working in web
               development for almost 5 years now.
@@ -29,7 +29,7 @@ const Hero = () => {
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">
           <div className="flex justify-center">
-            <img src={profile} alt="ProfilePicture"></img>
+            <img className="pt-12" src={profile} alt="ProfilePicture"></img>
           </div>
         </div>
       </div>

@@ -7,7 +7,7 @@ import { FaReddit } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-    <nav className="mb-20 flex justify-between py-4 items-center">
+    <nav className="mb-8 flex justify-between py-4 items-center">
         <div className=" flex-shrink-0 flex items-center">
             <img href="/" className="mx-2 w-16" src={logo} alt="Logo" />
         </div>
