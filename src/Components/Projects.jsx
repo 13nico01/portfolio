@@ -46,7 +46,7 @@ const Projects = () => {
               </p>
             </div>
           </div>
-        </div>{" "}
+        </div>
         <div class="max-w-sm w-full lg:w-1/4 lg:flex">
           <div className=" border-2 border-neutral-400 lg:border-gray-400 rounded-2xl p-4 flex flex-col justify-between leading-normal">
             <div className="mb-2">
