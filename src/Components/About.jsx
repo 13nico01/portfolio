@@ -1,5 +1,6 @@
 import aboutPic from "../assets/images/nico-ocean.jpg";
 import { ABOUT_TEXT } from "../Constants";
+import { motion } from "framer-motion";
 
 const About = () => {
   return (
@@ -10,7 +11,10 @@ const About = () => {
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2 lg:p-4">
           <div className="flex items-center justify-center">
-            <img
+            <motion.img
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: -100 }}
+              transition={{ duration: 0.5 }}
               className=" rounded-2xl max-w-sm  mb-8"
               src={aboutPic}
               alt="About Picture"
@@ -19,9 +23,14 @@ const About = () => {
         </div>
         <div className="w-full lg:w-1/2 sm:py-4">
           <div className="flex justify-center">
-            <p className=" tracking-tight font-extralight text-lg leading-8">
+            <motion.p
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: 100 }}
+              transition={{ duration: 0.5 }}
+              className=" tracking-tight font-extralight text-lg leading-8"
+            >
               {ABOUT_TEXT}
-            </p>
+            </motion.p>
           </div>
         </div>
       </div>
