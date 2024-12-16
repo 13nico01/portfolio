@@ -16,7 +16,7 @@ const About = () => {
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
               transition={{ duration: 0.5 }}
-              className=" rounded-2xl max-w-sm  mb-8"
+              className=" rounded-2xl w-auto max-w-xs lg:max-w-sm  mb-8 mx-4"
               src={aboutPic}
               alt="About Picture"
             />

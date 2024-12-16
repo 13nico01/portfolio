@@ -40,7 +40,7 @@ const Hero = () => {
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 0.5 }}
-              className="rounded-xl brightness-95 max-w-sm pt-20"
+              className="rounded-xl brightness-95 w-auto max-w-xs lg:pt-20"
               src={profile}
               alt="ProfilePicture"
             ></motion.img>
