@@ -3,7 +3,7 @@ import axios from "axios";
 
 const Github = () => {
   const [repos, setRepos] = useState([]);
-  const [visibleRepos, setVisibleRepos] = useState(3); 
+  const [visibleRepos, setVisibleRepos] = useState(3);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
@@ -25,9 +25,9 @@ const Github = () => {
   };
 
   return (
-    <div className="border-b border-neutral-800 mb-20">
+    <div className="border-b border-neutral-800 pb-12">
       <div className="flex flex-wrap justify-center text-center">
-        <h2 className="text-4xl font-extralight pt-4">GitHub</h2>
+        <h2 className="text-4xl font-extralight pt-6">GitHub</h2>
       </div>
 
       {loading ? (
@@ -42,7 +42,7 @@ const Github = () => {
             {repos.slice(0, visibleRepos).map((repo) => (
               <li
                 key={repo.id}
-                className="bg-neutral-900 text-white p-6 rounded-md shadow-md"
+                className="border-2 font-extralight border-neutral-400 text-white py-2 px-4 rounded-2xl"
               >
                 <a
                   href={repo.html_url}
@@ -61,7 +61,7 @@ const Github = () => {
             <div className="flex justify-center mt-6">
               <button
                 onClick={loadMoreRepos}
-                className="px-6 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600"
+                className="px-6 py-2 border-2 text-white rounded-2xl font-extralight hover:text-purple-700 hover:border-purple-700 transition-all duration-500"
               >
                 Load More
               </button>
