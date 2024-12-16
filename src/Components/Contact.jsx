@@ -22,7 +22,7 @@ const Contact = () => {
         <motion.a
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: 100 }}
-          transition={{ duration: 0.5, delay: 0.5 }}
+          transition={{ duration: 0.5, delay: 0.2 }}
           className=" underline"
           href="mailto:nico.z130601@gmail.com"
         >
@@ -31,7 +31,7 @@ const Contact = () => {
         <motion.a
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -100 }}
-          transition={{ duration: 0.5, delay: 1 }}
+          transition={{ duration: 0.5, delay: 0.3 }}
           href="tel:+4367764200741"
         >
           +43 67764200741

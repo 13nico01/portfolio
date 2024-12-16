@@ -5,5 +5,5 @@
 
 :root {
   font-family: "Poppins", sans-serif;
-  touch-action: auto;
+  touch-action: pan-y;
 }

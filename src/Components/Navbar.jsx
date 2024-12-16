@@ -4,7 +4,6 @@ import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaReddit } from "react-icons/fa";
-import { HashLink } from "react-router-hash-link";
 
 const Navbar = () => {
   return (
