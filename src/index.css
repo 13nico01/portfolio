@@ -6,5 +6,6 @@
 :root {
   font-family: "Poppins", sans-serif;
   touch-action: pan-y;
+  scroll-behavior: smooth;
 }
 
