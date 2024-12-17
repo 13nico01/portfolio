@@ -40,7 +40,7 @@ const About = () => {
             >
               <button className="border-2 border-neutral-400 rounded-2xl p-2 text-center flex hover:text-purple-700 hover:border-purple-700 transition-all duration-500">
                 <MdDownload className="text-lg mt-1 mr-2" />
-                <a href="./public/Lebenslauf.pdf" download="Nico-Zimmermann-CV">
+                <a href="/Lebenslauf.pdf" download="Nico-Zimmermann-CV">
                   Download CV
                 </a>
               </button>
