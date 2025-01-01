@@ -22,7 +22,7 @@ const Hero = () => {
               transition={{ duration: 1, delay: 1 }}
               className=" lowercase bg-gradient-to-r from-blue-700 via-slate-500 to-green-700 bg-clip-text text-4xl tracking-tight text-transparent"
             >
-              Web-Developer
+              Frontend-Developer
             </motion.span>
             <motion.p
               initial={{ x: -100, opacity: 0 }}
